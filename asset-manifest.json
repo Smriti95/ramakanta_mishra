@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/ramakanta_mishra/static/css/main.108460d1.chunk.css",
+    "main.js": "/ramakanta_mishra/static/js/main.2aaa2a7a.chunk.js",
+    "main.js.map": "/ramakanta_mishra/static/js/main.2aaa2a7a.chunk.js.map",
+    "runtime-main.js": "/ramakanta_mishra/static/js/runtime-main.eb53cf97.js",
+    "runtime-main.js.map": "/ramakanta_mishra/static/js/runtime-main.eb53cf97.js.map",
+    "static/js/2.16b1fb2b.chunk.js": "/ramakanta_mishra/static/js/2.16b1fb2b.chunk.js",
+    "static/js/2.16b1fb2b.chunk.js.map": "/ramakanta_mishra/static/js/2.16b1fb2b.chunk.js.map",
+    "static/js/3.2397472c.chunk.js": "/ramakanta_mishra/static/js/3.2397472c.chunk.js",
+    "static/js/3.2397472c.chunk.js.map": "/ramakanta_mishra/static/js/3.2397472c.chunk.js.map",
+    "index.html": "/ramakanta_mishra/index.html",
+    "static/css/main.108460d1.chunk.css.map": "/ramakanta_mishra/static/css/main.108460d1.chunk.css.map",
+    "static/js/2.16b1fb2b.chunk.js.LICENSE.txt": "/ramakanta_mishra/static/js/2.16b1fb2b.chunk.js.LICENSE.txt",
+    "static/media/book.03b0b325.jpg": "/ramakanta_mishra/static/media/book.03b0b325.jpg",
+    "static/media/cans.c997c416.jpg": "/ramakanta_mishra/static/media/cans.c997c416.jpg",
+    "static/media/chocolate.de5aa5aa.jpg": "/ramakanta_mishra/static/media/chocolate.de5aa5aa.jpg",
+    "static/media/factory.e880ba41.jpg": "/ramakanta_mishra/static/media/factory.e880ba41.jpg",
+    "static/media/gherkins-8.7eba0016.jpeg": "/ramakanta_mishra/static/media/gherkins-8.7eba0016.jpeg",
+    "static/media/jam.1943cef3.jpg": "/ramakanta_mishra/static/media/jam.1943cef3.jpg",
+    "static/media/juice.2eb418c6.jpg": "/ramakanta_mishra/static/media/juice.2eb418c6.jpg",
+    "static/media/ketchup.6f539357.jpg": "/ramakanta_mishra/static/media/ketchup.6f539357.jpg",
+    "static/media/kunu.f811bf54.docx": "/ramakanta_mishra/static/media/kunu.f811bf54.docx",
+    "static/media/paste.677c8367.jpg": "/ramakanta_mishra/static/media/paste.677c8367.jpg",
+    "static/media/petbottle.596fff1f.jpg": "/ramakanta_mishra/static/media/petbottle.596fff1f.jpg",
+    "static/media/pickle.4be178a3.jpg": "/ramakanta_mishra/static/media/pickle.4be178a3.jpg",
+    "static/media/profile.4f55ce66.png": "/ramakanta_mishra/static/media/profile.4f55ce66.png",
+    "static/media/readytocook.4207ef47.jpg": "/ramakanta_mishra/static/media/readytocook.4207ef47.jpg",
+    "static/media/readytoeat.108e33ce.jpg": "/ramakanta_mishra/static/media/readytoeat.108e33ce.jpg",
+    "static/media/tea.99028295.jpg": "/ramakanta_mishra/static/media/tea.99028295.jpg",
+    "static/media/tuttifruity.efdeaa30.jpg": "/ramakanta_mishra/static/media/tuttifruity.efdeaa30.jpg",
+    "static/media/wafer.66971046.jpg": "/ramakanta_mishra/static/media/wafer.66971046.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb53cf97.js",
+    "static/js/2.16b1fb2b.chunk.js",
+    "static/css/main.108460d1.chunk.css",
+    "static/js/main.2aaa2a7a.chunk.js"
+  ]
+}
