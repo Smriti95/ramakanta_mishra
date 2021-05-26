@@ -1,0 +1,62 @@
+.aboutMeHeading {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 56% 0 0 37%;
+    width: 27%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px darkgrey;
+}
+
+.aboutMeListContainer {
+    padding: 2% 4% 0 0;
+}
+
+.leftContainerAboutMe {
+    float: left;
+    background-color: #dae9e4;
+    width: 45%;
+    height: 725px;
+}
+
+.rightContainerAboutMe {
+    width: 55%;
+    float: right;
+}
+
+.listId {
+    background-color: #faa300;
+    border-radius: 50px;
+    height: 65px;
+    width: 65px;
+    margin-left: -32px;
+    float: left;
+}
+
+.listDesc{
+    padding: 0 0 0 27px;
+    color: black;
+}
+
+.aboutMeList {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 50px;
+    color: #dae9e4;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.listIdText {
+    color: ghostwhite;
+    font-size: 28px;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    margin-top: -2px;
+}
+

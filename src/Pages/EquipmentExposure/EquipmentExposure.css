@@ -1,0 +1,80 @@
+.equipmentContainer {
+    width: 100%;
+    position: absolute;
+    height: -webkit-fill-available;
+    z-index: -1;
+}
+
+.projectModal{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+    width: 80%;
+    height: 80%
+}
+
+.closeIcon{
+    position: absolute;
+    right: 3%;
+    top: 6%;
+    font-size: 34px !important;
+}
+
+.backArrow{
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 3.5%;
+}
+
+.forwardArrow{
+    position: absolute;
+    top: 50%;
+    right: 3.5%;
+}
+
+.equipmentLeftContainer{
+    float: left;
+    background-color: #dae9e4;
+    width: 30%;
+    height: -webkit-fill-available;
+}
+
+.equipmentRightContainer{
+    float: right;
+    height: -webkit-fill-available;
+    width: 70%;
+}
+
+.equipmentHeadingText {
+    display: flex;
+    margin-top: 26%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px darkgrey;
+    position: fixed;
+}
+
+.equipCardContainer {
+    float: left;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.equipShowMoreButtonContainer {
+    position: absolute;
+    width: 70%;
+    top: 77%;
+}
+
+.equipShowLessButtonContainer {
+    position: absolute;
+    width: 70%;
+    top: 130%;
+    padding-bottom: 3%;
+}

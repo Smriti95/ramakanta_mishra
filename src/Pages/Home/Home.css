@@ -1,0 +1,60 @@
+.homeBodyContainer{
+    /* margin-top: 3.8%; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #dae9e4;
+}
+
+.introText{
+    font-size: 35px;
+    margin-top: 24%;
+}
+
+.profileImage {
+    width: 44%;
+    border-radius: 200px 0px 200px 200px;
+    box-shadow: 0px 26px #dae9e4;
+    background-color: black;
+}
+
+.profileImageContainer {
+    height: 375px;
+    margin-top: 82px;
+    width: 65%;
+}
+
+.profileTextContainer{
+    float: left;
+    width: 50%;
+    margin-left: 190px;
+    margin-top: 71px;
+}
+
+.homeAboutMeContainer{
+    background-color: white;
+    padding-top: 8%;
+}
+
+.homeStatisticsBarContainer{
+    padding-top: 12%;
+    background-color: white;
+}
+
+.downloadButtonText{
+    text-decoration: none;
+    color: white;
+}
+
+.leftButton{
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: -2%;
+}
+
+.rightButton{
+    float: right;
+    width: 50%;
+    margin-top: 8.5%;
+}

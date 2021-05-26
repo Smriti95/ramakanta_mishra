@@ -1,0 +1,19 @@
+.listContainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.index{
+    float: left;
+    width: 18%;
+    font-size: 52px;
+    color: #dae9e4;
+}
+
+.text{
+    width: 61%;
+    text-align: left;
+}

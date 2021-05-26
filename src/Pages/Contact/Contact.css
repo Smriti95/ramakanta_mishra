@@ -1,0 +1,53 @@
+.contactImage {
+    width: 100%;
+    height: -webkit-fill-available;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+.contactCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 10px 10px 37px -11px #dae9e4;
+    padding: 20px;
+}
+
+.contactInfoContainer {
+    width: 84%;
+    padding: 3%;
+    display: flex;
+    margin-left: 3%;
+}
+
+.icon{
+   float: left;
+}
+
+.detailText{
+    margin-top: 2px;
+    margin-left: 5%;
+}
+
+.linkedindetailText {
+    margin-top: 5px;
+    margin-left: 4.5%;
+}
+
+.contactTitle{
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contactBorder{
+    border: 1px dotted #dae9e4;
+}

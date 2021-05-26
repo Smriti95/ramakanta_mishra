@@ -1,0 +1,30 @@
+.projectLeftContainer{
+    float: left;
+    background-color: #dae9e4;
+    width: 30%;
+    height: -webkit-fill-available;
+}
+
+.projectRightContainer{
+    float: right;
+    height: -webkit-fill-available;
+    width: 70%;
+}
+
+.projectContainer{
+    width: 100%;
+    position: absolute;
+    height: -webkit-fill-available;
+    z-index: -1;
+}
+
+.projectHeadingText {
+    display: flex;
+    margin-top: 26%;
+    margin-left: 11%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px darkgrey;
+    position: fixed;
+}
