@@ -31,11 +31,11 @@ const Header = (props) => {
                             </div>
                         ))
                     } */}
-                    <NavLink exact to="/" activeClassName="selected" className="menuLink">Home</NavLink>
-                    <NavLink to="/projects" activeClassName="selected" className="menuLink">Projects</NavLink>
-                    <NavLink to="/experience" activeClassName="selected" className="menuLink">Experience</NavLink>
-                    <NavLink to="/equipment" activeClassName="selected" className="menuLink">Equipment Exposure</NavLink>
-                    <NavLink to="/contact" activeClassName="selected" className="menuLink">Contact</NavLink>
+                    <NavLink exact to="/ramakanta_mishra/" activeClassName="selected" className="menuLink">Home</NavLink>
+                    <NavLink to="/ramakanta_mishra/projects" activeClassName="selected" className="menuLink">Projects</NavLink>
+                    <NavLink to="/ramakanta_mishra/experience" activeClassName="selected" className="menuLink">Experience</NavLink>
+                    <NavLink to="/ramakanta_mishra/equipment" activeClassName="selected" className="menuLink">Equipment Exposure</NavLink>
+                    <NavLink to="/ramakanta_mishra/contact" activeClassName="selected" className="menuLink">Contact</NavLink>
                 </div>
             {/* </Drawer> */}
         </div>
