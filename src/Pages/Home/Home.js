@@ -23,7 +23,7 @@ const Home = (props) => {
                 <div className="profileTextContainer">
                     <div className="introText">Hi! I am Ramakanta Mishra</div>
                     <div className="leftButton">
-                        <Button style="homeButton" title="Contact Me" path="/contact" onClick={onClickHandler}/>
+                        <Button style="homeButton" title="Contact Me" path="/ramakanta_mishra/contact" onClick={onClickHandler}/>
                     </div>
                     <div className="rightButton">
                         <button className="homeButton">

@@ -9,7 +9,7 @@ import './Experience.css'
 const Experience = (props) => {
 
     const onClickHandler = (path) => {
-        props.history.push(`/experience/${path}`)
+        props.history.push(`/ramakanta_mishra/experience/${path}`)
     }
 
     return(
