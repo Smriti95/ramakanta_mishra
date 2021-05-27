@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ramakanta_mishra/static/css/main.108460d1.chunk.css",
-    "main.js": "/ramakanta_mishra/static/js/main.4e7f56fd.chunk.js",
-    "main.js.map": "/ramakanta_mishra/static/js/main.4e7f56fd.chunk.js.map",
+    "main.js": "/ramakanta_mishra/static/js/main.7f6a4fca.chunk.js",
+    "main.js.map": "/ramakanta_mishra/static/js/main.7f6a4fca.chunk.js.map",
     "runtime-main.js": "/ramakanta_mishra/static/js/runtime-main.eb53cf97.js",
     "runtime-main.js.map": "/ramakanta_mishra/static/js/runtime-main.eb53cf97.js.map",
     "static/js/2.16b1fb2b.chunk.js": "/ramakanta_mishra/static/js/2.16b1fb2b.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.eb53cf97.js",
     "static/js/2.16b1fb2b.chunk.js",
     "static/css/main.108460d1.chunk.css",
-    "static/js/main.4e7f56fd.chunk.js"
+    "static/js/main.7f6a4fca.chunk.js"
   ]
 }
