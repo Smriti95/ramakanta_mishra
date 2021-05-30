@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ramakanta_mishra/static/css/main.108460d1.chunk.css",
+    "main.css": "/ramakanta_mishra/static/css/main.3ca9411e.chunk.css",
     "main.js": "/ramakanta_mishra/static/js/main.0c178759.chunk.js",
     "main.js.map": "/ramakanta_mishra/static/js/main.0c178759.chunk.js.map",
     "runtime-main.js": "/ramakanta_mishra/static/js/runtime-main.eb53cf97.js",
@@ -10,7 +10,7 @@
     "static/js/3.2397472c.chunk.js": "/ramakanta_mishra/static/js/3.2397472c.chunk.js",
     "static/js/3.2397472c.chunk.js.map": "/ramakanta_mishra/static/js/3.2397472c.chunk.js.map",
     "index.html": "/ramakanta_mishra/index.html",
-    "static/css/main.108460d1.chunk.css.map": "/ramakanta_mishra/static/css/main.108460d1.chunk.css.map",
+    "static/css/main.3ca9411e.chunk.css.map": "/ramakanta_mishra/static/css/main.3ca9411e.chunk.css.map",
     "static/js/2.16b1fb2b.chunk.js.LICENSE.txt": "/ramakanta_mishra/static/js/2.16b1fb2b.chunk.js.LICENSE.txt",
     "static/media/book.03b0b325.jpg": "/ramakanta_mishra/static/media/book.03b0b325.jpg",
     "static/media/cans.c997c416.jpg": "/ramakanta_mishra/static/media/cans.c997c416.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb53cf97.js",
     "static/js/2.16b1fb2b.chunk.js",
-    "static/css/main.108460d1.chunk.css",
+    "static/css/main.3ca9411e.chunk.css",
     "static/js/main.0c178759.chunk.js"
   ]
 }

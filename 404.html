@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <style>
+        .errorPageContainer {
+            background-color: #dae9e4;
+            height: -webkit-fill-available;
+            position: absolute;
+            width: 100%;
+        }
+
+        .errorCard {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40%;
+            background-color: white;
+            z-index: 1;
+            box-shadow: 10px 10px 37px -11px #dae9e4;
+            padding: 20px;
+        }
+
+        .errorBorder {
+            border: 1px dotted #dae9e4;
+        }
+
+        .errorText {
+            padding: 6%;
+            font-size: 21px;
+        }
+
+        .errorButton {
+            background-color: #faa300;
+            outline: none;
+            padding: 18px;
+            border: none;
+            font-size: 18px;
+            width: 45%;
+            box-shadow: 10px 10px darkgrey;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 6%;
+        }
+
+        .buttonContainer{
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="errorPageContainer">
+            <div class="errorCard">
+                <div class="errorBorder">
+                    <div class="errorText">Oops!! Seems like this page doesn't exist</div>
+                    <div class="buttonContainer">
+                        <button class="errorButton" href="/ramakanta_mishra/">Go Back To Home</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
