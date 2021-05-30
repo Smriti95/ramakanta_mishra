@@ -5,8 +5,8 @@ import './AboutMe.css'
 
 const AboutMe = props => {
     return(
-        <div>
-            <div className="leftContainerAboutMe">
+        <React.Fragment>
+            {/* <div className="leftContainerAboutMe">
                 <div className="aboutMeHeading">About Me</div>
             </div>
             <div className="rightContainerAboutMe">
@@ -22,8 +22,9 @@ const AboutMe = props => {
                         </div>
                     ))}
                 </div>
-            </div>
-        </div>
+            </div> */}
+            About
+        </React.Fragment>
     )
 }
 

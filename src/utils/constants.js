@@ -384,10 +384,6 @@ export const menuButtons = [
         path: '/experience'
     },
     {
-        name: 'Equipment Exposure',
-        path: '/equipment'
-    },
-    {
         name: 'Contact',
         path: '/contact'
     }
