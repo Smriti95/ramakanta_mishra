@@ -1,0 +1,123 @@
+.timelineImage{
+    width: 100%;
+    z-index: -1;
+    height: fit-content;
+}
+
+.timelineMainContainer{
+    position: absolute;
+    top: 4%;
+    width: 100%;
+}
+
+.timelineHeading {
+    padding: 2%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    margin-top: -240%;
+    font-size: 24px;
+    color: rgba(250, 163, 0, 100%);
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.timelineCloseIcon{
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    font-size: 27px !important;
+}
+
+@media only screen and (min-width: 411px){
+    .timelineHeading {
+        margin-top: -210%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .timelineImage {
+        height: 1000px;
+    }
+
+    .timelineHeading {
+        margin-top: -314%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width:410px){
+    .timelineHeading {
+        margin-top: -231%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .timelineHeading {
+        margin-top: -123%;
+    }
+
+    .timelineImage {
+        height: 91%;
+    }
+
+    .timelineCloseIcon {
+        top: 2%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1365px){
+    .timelineImage {
+        height: 127%;
+    }
+
+    .timelineHeading {
+        margin-top: -98%;
+    }
+
+    .timelineCloseIcon {
+        position: absolute;
+        right: 2%;
+        top: 1%;
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (min-height: 1366px){
+    .timelineImage {
+        height: 74%;
+    }
+
+    .timelineHeading {
+        margin-top: -101%;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .timelineImage {
+        height: 111%;
+    }
+
+    .timelineHeading {
+        margin-top: -85%;
+    }
+
+    .timelineCloseIcon{
+        position: absolute;
+        right: 3%;
+        top: 6%;
+        font-size: 34px !important;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    .timelineImage {
+        height: 140%;
+    }
+
+    .timelineHeading {
+        margin-top: -82.5%;
+        font-size: 2rem;
+    }
+}

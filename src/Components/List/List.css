@@ -1,19 +1,97 @@
-.listContainer{
-    width: 90%;
+.listContainer {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3%;
+    padding: 2% 0;
 }
 
-.index{
+.index {
     float: left;
-    width: 18%;
-    font-size: 52px;
+    width: 20%;
+    font-size: 55px;
     color: #dae9e4;
+    font-family: 'Cinzel', serif;
 }
 
-.text{
-    width: 61%;
+.text {
+    width: 70%;
     text-align: left;
+    font-family: 'Mate', serif;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px){
+    .listContainer{
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 3%;
+    }
+    
+    .text {
+        width: 80%;
+        text-align: left;
+        font-family: 'Mate', serif;
+        font-size: 1.1rem;
+    }
+
+    .index {
+        float: left;
+        width: 16%;
+        font-size: 67px;
+        color: #dae9e4;
+        font-family: 'Cinzel', serif;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .listContainer{
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 3%;
+    }
+
+    .index {
+        float: left;
+        width: 13%;
+        font-size: 67px;
+        color: #dae9e4;
+        font-family: 'Cinzel', serif;
+    }
+
+    .text{
+        width: 65%;
+        text-align: left;
+        font-family: 'Mate', serif;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .listContainer{
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 3%;
+    }
+    
+    .index{
+        float: left;
+        width: 10%;
+        font-size: 67px;
+        color: #dae9e4;
+        font-family: 'Cinzel', serif;
+    }
+    
+    .text{
+        width: 65%;
+        text-align: left;
+        font-family: 'Mate', serif;
+        font-size: 1.1rem;
+    }
 }

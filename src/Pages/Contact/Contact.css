@@ -12,7 +12,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 40%;
+    width: 81%;
     background-color: white;
     z-index: 1;
     box-shadow: 10px 10px 37px -11px #dae9e4;
@@ -20,10 +20,12 @@
 }
 
 .contactInfoContainer {
-    width: 84%;
+    width: 91%;
     padding: 3%;
     display: flex;
     margin-left: 3%;
+    word-break: break-all;
+    text-align: left;
 }
 
 .icon{
@@ -31,23 +33,54 @@
 }
 
 .detailText{
-    margin-top: 2px;
+    margin-top: 1px;
     margin-left: 5%;
+    font-family: 'Mate', serif;
+    font-size: 1.2rem;
 }
 
 .linkedindetailText {
-    margin-top: 5px;
+    margin-top: 4px;
     margin-left: 4.5%;
+    font-family: 'Mate', serif;
+    font-size: 1.2rem;
 }
 
 .contactTitle{
     padding: 4%;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Cinzel', serif;
+    color: rgba(250, 163, 0, 100%);
 }
 
 .contactBorder{
     border: 1px dotted #dae9e4;
+}
+
+@media screen and (min-width: 768px){
+    .contactCard {
+        width: 50%;
+    }
+
+    .contactInfoContainer {
+        width: 84%;
+        padding: 3%;
+        display: flex;
+        margin-left: 3%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .contactCard {
+        width: 38%;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .contactCard {
+        width: 29%;
+    }
 }

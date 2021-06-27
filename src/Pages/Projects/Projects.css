@@ -1,0 +1,147 @@
+.projects {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.projectsHeading {
+    font-family: 'Cinzel', serif;
+    color: rgba(250, 163, 0, 100%);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2%;
+    border: 2px solid rgba(250, 163, 0, 100%);
+    margin-top: 5%;
+    width: 70%;
+}
+
+.projectDesc{
+    position: absolute;
+    margin-top: 21%;
+    padding: 8% 11% 8% 11%;
+    font-family: 'Mate', serif;
+    font-size: 0.9rem;
+}
+
+.projectCardContainer{
+    position: absolute;
+    margin-top: 77%;
+}
+
+.projectCard{
+    margin-bottom: 8% !important;
+}
+
+.projectModal {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
+.closeIcon{
+    position: absolute;
+    right: 3%;
+    top: 6%;
+    font-size: 34px !important;
+}
+
+.backArrow{
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 3.5%;
+}
+
+.forwardArrow{
+    position: absolute;
+    top: 50%;
+    right: 3.5%;
+}
+
+.modalFooter{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    font-family: 'Mate', serif;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px){
+    .projects {
+        top: 4%;
+    }
+
+    .projectDesc {
+        margin-top: 15%;
+        padding: 5% 8% 5% 8%;
+        font-size: 1rem;
+    }
+
+    .projectsHeading{
+        width: 21%;
+    }
+
+    .projectCardContainer {
+        margin-top: 36%;
+    }
+
+    .projectModal{
+        width: 80%;
+        height: 80%
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .projectsHeading{
+        padding: 1%;
+    }
+
+    .projectCardContainer {
+        margin-top: 27%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px){
+    .projectDesc {
+        padding: 3% 4% 3% 4%;
+        margin-top: 13%;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .projectDesc {
+        padding: 3% 4% 3% 4%;
+        margin-top: 10.5%;
+    }
+
+    .projectCardContainer {
+        margin-top: 21%;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 414px){
+    .projectCardContainer {
+        margin-top: 69% !important;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .projectCardContainer {
+        margin-top: 94%;
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .projectCardContainer {
+        margin-top: 20%;
+    }
+}

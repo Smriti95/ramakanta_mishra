@@ -1,63 +1,148 @@
 .aboutMeHeading {
-    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    color: rgba(250, 163, 0, 100%);
+    font-size: 24px;
     font-weight: bold;
-    padding: 56% 0 0 37%;
-    width: 27%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px darkgrey;
 }
 
-.aboutMeListContainer {
-    padding: 2% 4% 0 0;
-}
-
-.leftContainerAboutMe {
-    float: left;
-    background-color: #dae9e4;
-    width: 45%;
-    height: 725px;
-}
-
-.rightContainerAboutMe {
-    width: 55%;
-    float: right;
-}
-
-.listId {
-    background-color: #faa300;
-    border-radius: 50px;
-    height: 65px;
-    width: 65px;
-    margin-left: -32px;
-    float: left;
-}
-
-.listDesc{
-    padding: 0 0 0 27px;
-    color: black;
+.aboutMeDetails {
     font-family: 'Mate', serif;
+    font-size: 0.9rem;
+    margin-top: 5%;
 }
 
-.aboutMeList {
-    text-align: left;
-    font-size: 18px;
-    padding-bottom: 50px;
-    color: #dae9e4;
-    display: flex;
+.aboutMeDetailsContainer{
+    padding: 0 8% 8% 8%;
+}
+
+.aboutMeButton {
+    border-radius: 200px 200px 200px 0;
+    border: 1px solid rgba(250, 163, 0, 100%);
+    width: 53%;
+    padding: 2%;
+    margin-bottom: 5%;
+    font-size: 0.9rem;
+    color: rgba(250, 163, 0, 100%);
+    font-family: 'Mate', serif;
+    background-color: white;
+}
+
+.aboutMeImage {
+    width: 256px;
+    height: 299px;
+    margin-left: -22%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+.aboutMeFirstContainer{
+    padding: 6% 0 6% 0;
+}
+
+.aboutMeSecondContainerMobile{
     align-content: center;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 7% !important;
 }
 
-.listIdText {
-    color: ghostwhite;
-    font-size: 28px;
-    padding: 17px;
-    display: flex;
-    justify-content: center;
-    margin-top: -2px;
+.aboutMeImageContainer {
+    border: 2px solid rgb(250, 163, 0);
 }
 
+@media only screen and (min-width: 768px){
+    .aboutMeImageContainer {
+        border: 2px solid rgb(250, 163, 0);
+        width: 75%;
+        height: 77%;
+    }
+
+    .aboutMeDetails {
+        font-size: 1rem;
+        margin-top: 3%;
+    }
+
+    .aboutMeDetailsContainer {
+        padding: 0 8% 3% 8%;
+    }
+
+    .aboutMeButtonContainer {
+        width: 100% !important;
+    }
+
+    .aboutMeButton {
+        font-size: 1rem;
+        width: 83%;
+        padding: 3%;
+    }
+
+    .aboutMeImage {
+        width: 284px;
+        height: 357px;
+        margin-left: -22%;
+        margin-top: -6%;
+    }
+
+    .aboutMeSecondContainer{
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .aboutMeDetails {
+        margin-top: 2%;
+    }
+
+    .aboutMeImageContainer {
+        width: 47%;
+        height: 83%;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1365px){
+    .aboutMeImageContainer {
+        width: 59%;
+        height: 82%;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    .aboutMeImage {
+        width: 308px;
+        height: 376px;
+    }
+
+    .aboutMeFirstContainer {
+        padding: 0;
+        max-width: 70% !important;
+    }
+
+    .aboutMeSecondContainer {
+        max-width: 30% !important;
+    }
+
+    .aboutMeMainContainer {
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMeHeading {
+        font-size: 2rem;
+    }
+
+    .aboutMeImageContainer {
+        width: 66%;
+        height: 83%;
+    }
+
+    .aboutMeButton {
+        width: 61%;
+    }
+}

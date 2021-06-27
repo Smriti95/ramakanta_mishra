@@ -1,61 +1,137 @@
-.homeBodyContainer{
-    /* margin-top: 3.8%; */
-    display: flex;
-    justify-content: center;
+.introSection{
+    top: 4rem;
+    position: absolute;
+    background-color: #708270;
     width: 100%;
-    background-color: #dae9e4;
 }
 
-.introText{
-    font-size: 35px;
-    margin-top: 24%;
-    font-family: 'Cinzel', serif;
+.aboutMe {
+    position: absolute;
+    width: 100%;
+    margin-top: 87%;
 }
 
-.profileImage {
-    width: 44%;
-    border-radius: 200px 0px 200px 200px;
-    box-shadow: 0px 26px #dae9e4;
-    background-color: black;
+.statistics {
+    width: 100%;
+    position: absolute;
+    margin-top: 279%;
 }
 
-.profileImageContainer {
-    height: 375px;
-    margin-top: 82px;
-    width: 65%;
+.experienceTimeline {
+    position: absolute;
+    width: 100%;
+    margin-top: 476.5%;
+    height: 100%;
 }
 
-.profileTextContainer{
-    float: left;
-    width: 50%;
-    margin-left: 190px;
-    margin-top: 71px;
+@media only screen and (max-width: 360px){
+    .statistics {
+        margin-top: 316% !important;
+    }
 }
 
-.homeAboutMeContainer{
-    background-color: white;
-    padding-top: 8%;
+@media only screen and (max-width: 375px){
+    .aboutMe {
+        margin-top: 92%;
+    }
+
+    .statistics {
+        margin-top: 305%;
+    }
+
+    .experienceTimeline {
+        margin-top: 541.5%;
+    }
 }
 
-.homeStatisticsBarContainer{
-    padding-top: 12%;
-    background-color: white;
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+    .introSection {
+        top: 36px;
+    }
 }
 
-.downloadButtonText{
-    text-decoration: none;
-    color: white;
+@media only screen and (min-width: 1000px){
+    .aboutMe {
+        margin-top: 30%;
+    }
+
+    .statistics {
+        margin-top: 74%;
+    }
+
+    .experienceTimeline {
+        margin-top: 103.5%;
+    }
 }
 
-.leftButton{
-    float: left;
-    width: 50%;
-    margin-top: 5%;
-    margin-left: -2%;
+@media only screen and (min-width: 1280px){
+    .introSection {
+        top: 48px;
+    }
+
+    .statistics {
+        margin-top: 53%;
+    }
 }
 
-.rightButton{
-    float: right;
-    width: 50%;
-    margin-top: 8.5%;
+@media only screen and (min-width: 768px) and (max-width: 999px){
+    .aboutMe {
+        margin-top: 31%;
+    }
+
+    .statistics {
+        margin-top: 92%;
+    }
+
+    .experienceTimeline {
+        margin-top: 128.5%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .aboutMe {
+        margin-top: 106%;
+    }
+
+    .statistics {
+        margin-top: 363% !important;
+    }
+
+    .experienceTimeline {
+        margin-top: 625.5%;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .statistics {
+        margin-top: 63%;
+    }
+
+    .aboutMe {
+        margin-top: 28%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experienceTimeline {
+        margin-top: 85%;
+    }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px){
+    .experienceTimeline {
+        margin-top: 489.5%;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    .statistics {
+        margin-top: 58%;
+    }
+
+    .experienceTimeline {
+        margin-top: 84%;
+    }
 }

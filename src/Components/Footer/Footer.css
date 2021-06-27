@@ -1,0 +1,147 @@
+.footerHome{
+    position: absolute;
+    background-color: #708270;
+    width: 100%;
+    top: 175rem;
+}
+
+.footerItem {
+    padding: 2% 11% 2% 5%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footerText{
+    padding-left: 4%;
+    font-family: 'Mate', serif;
+    color: floralwhite
+}
+
+.footerIcon{
+    color: floralwhite;
+}
+
+.footerProject {
+    position: absolute;
+    background-color: #708270;
+    width: 100%;
+    top: 180rem;
+}
+
+.footerEquipment {
+    position: absolute;
+    background-color: #708270;
+    width: 100%;
+    top: 44rem;
+}
+
+@media only screen and (min-width: 375px){
+    .footerHome {
+        top: 176rem;
+    }
+
+    .footerProject {
+        top: 184rem;
+    }
+
+    .footerEquipment {
+        top: 47rem;
+    }
+}
+
+@media only screen and (min-width: 411px){
+    .footerProject {
+        top: 189rem;
+    }
+
+    .footerEquipment {
+        top: 46rem;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .footerHome {
+        top: 186rem;
+    }
+
+    .footerProject {
+        top: 177rem;
+    }
+
+    .footerEquipment {
+        top: 39rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+    .footerHome {
+        top: 119.5rem;
+    }
+
+    .footerProject {
+        top: 80rem;
+    }
+
+    .footerEquipment {
+        top: 60rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1365px){
+    .footerHome {
+        top: 127rem;
+    }
+
+    .footerProject {
+        top: 82rem;
+    }
+}
+
+@media only screen and (min-height: 1366px){
+    .footerHome {
+        top: 129rem;
+    }
+
+    .footerEquipment {
+        top: 84rem;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .footerItem {
+        padding: 2% 0% 2% 8%;
+    }
+
+    .footerHome {
+        top: 143rem;
+    }
+
+    .footerProject {
+        top: 90rem;
+    }
+
+    .footerEquipment {
+        top: 61rem;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    .footerHome {
+        top: 146rem;
+    }
+
+    .footerItem {
+        padding: 1% 0% 1% 8%;
+    }
+
+    .footerProject {
+        top: 95rem;
+    }
+
+    .footerEquipment {
+        top: 52rem;
+    }
+}

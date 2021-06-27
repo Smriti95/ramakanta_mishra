@@ -1,0 +1,104 @@
+.equipmentContainerYellow {
+    width: 92%;
+    padding: 4%;
+    background-color: rgba(250, 163, 0, 60%);
+    margin-bottom: 6%;
+}
+
+.equipmentContainerGreen{
+    width: 92%;
+    padding: 4%;
+    background-color: rgb(112, 130, 112, 60%);
+    margin-bottom: 6%;
+}
+
+.expandIcon{
+    float: right;
+    margin-top: -23px;
+    font-size: 1rem;
+}
+
+.expandedIcon{
+    animation: expandIcon 0.2s ease-in forwards;
+}
+
+.notExpandedIcon{
+    animation: closeExpandIcon 0.2s ease-in forwards;
+}
+
+.equipmentTitle{
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@keyframes closeExpandIcon {
+    0%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes expandIcon {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+.equipmentDetailText{
+    font-family: 'Mate', serif;
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 1024px){
+    .equipmentTitle {
+        font-size: 1.3rem;
+    }
+
+    .expandIcon {
+        float: right;
+        margin-top: -23px;
+        font-size: 1.9rem !important;
+    }
+
+    .equipmentContainerYellow {
+        width: 55%;
+        padding: 2%;
+    }
+
+    .equipmentContainerGreen{
+        width: 55%;
+        padding: 2%;
+    }
+
+    .expandIcon {
+        margin-top: -30px;
+        font-size: 2rem !important;
+    }
+
+    .equipmentDetailText {
+        font-size: 1rem;
+        padding: 2%;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .equipmentContainerYellow {
+        margin-bottom: 3%;
+    }
+
+    .equipmentContainerGreen{
+        margin-bottom: 3%;
+    }
+}

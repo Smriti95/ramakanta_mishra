@@ -1,35 +1,161 @@
-.companyExperienceContainer{
-    margin-top: 6%;
+.companyExperienceContainer {
+    margin-top: 10%;
     width: 100%;
+    overflow-y: scroll;
+    height: 90%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
-.companyName{
-    font-size: 35px;
+.companyExperienceContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.companyName {
+    font-size: 1.6rem;
     font-weight: bolder;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: rgba(250, 163, 0, 100%);
 }
 
-.designation{
-    font-size: 25px;
+
+.designation {
+    font-size: 0.9rem;
     font-weight: bold;
     padding: 13px;
+    font-family: 'Mate', serif;
+    text-align: center;
 }
 
-.duration{
-    font-size: 17px;
+.duration {
+    font-size: 0.9rem;
     font-weight: bold;
+    padding: 0 10% 4% 10%;
+    font-family: 'Mate', serif;
+    text-align: center;
 }
 
-.resTitle{
-    font-size: 23px;
-    padding: 53px;
+.resTitle {
+    font-size: 1.2rem;
+    padding: 0 10% 6% 10%;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: rgba(250, 163, 0, 100%);
 }
 
-.firstSet{
-    width: 50%;
-    float: left;
+.resContainer{
+    margin-top: -4%;
 }
 
-.secondSet{
-    width: 50%;
-    float: right;
+@media screen and (min-width: 768px){
+    .companyExperienceContainer {
+        margin-top: 8%;
+        width: 100%;
+        overflow-y: scroll;
+        height: 90%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .companyExperienceContainer::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .companyName{
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: rgba(250, 163, 0, 100%);
+    }
+    
+    .designation{
+        font-size: 17px;
+        font-weight: bold;
+        padding: 13px;
+        font-family: 'Mate', serif;
+        text-align: center;
+    }
+    
+    .duration{
+        font-size: 17px;
+        font-weight: bold;
+        padding: 13px;
+        font-family: 'Mate', serif;
+        text-align: center;
+    }
+    
+    .resTitle {
+        font-size: 25px;
+        padding: 3% 2% 6% 2%;
+    }
+    
+    .resContainer{
+        margin-top: -4%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .companyExperienceContainer {
+        margin-top: 3%;
+        width: 100%;
+        overflow-y: scroll;
+        height: 90%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
+    .companyExperienceContainer::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .companyName{
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: rgba(250, 163, 0, 100%);
+    }
+    
+    
+    .designation{
+        font-size: 17px;
+        font-weight: bold;
+        padding: 13px;
+        font-family: 'Mate', serif;
+        text-align: center;
+    }
+    
+    .duration{
+        font-size: 17px;
+        font-weight: bold;
+        padding: 13px;
+        font-family: 'Mate', serif;
+        text-align: center;
+    }
+    
+    .resTitle{
+        font-size: 25px;
+        padding: 53px;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        color: rgba(250, 163, 0, 100%);
+    }
+    
+    .resContainer{
+        margin-top: -4%;
+    }
+}
+
+@media screen and (width: 1366px){
+    .companyExperienceContainer {
+        margin-top: 4%;
+    }
+}
+
+@media screen and (min-height: 1366px){
+    .companyExperienceContainer {
+        margin-top: 5%;
+    }
 }

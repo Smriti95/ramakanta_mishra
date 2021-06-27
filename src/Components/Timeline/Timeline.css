@@ -1,0 +1,74 @@
+.timelineContainerRight{
+    width: 38%;
+    position: relative;
+    left: 50%;
+    text-align: left !important;
+    padding: 0 16px !important;
+}
+
+.timelineContainerLeft{
+    width: 38%;
+    position: relative;
+    right: 50%;
+    text-align: right;
+    padding: 0 16px !important;
+}
+
+.timelineDuration{
+    font-family: 'Mate', serif;
+    font-size: 0.9rem;
+    padding: 1%;
+}
+
+.timelineCompany{
+    font-family: 'Mate', serif;
+    font-size: 1rem;
+    padding: 1%;
+    font-weight: bold;
+}
+
+.timelineDesignation{
+    font-family: 'Mate', serif;
+    font-size: 0.9rem;
+    padding: 1%;
+}
+
+.timelineButton{
+    border-radius: 200px 200px 200px 0;
+    border: 1px solid rgba(250, 163, 0, 50%);
+    width: 96%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 0.9rem;
+    background-color: rgba(250, 163, 0, 50%);
+    color: white;
+    font-family: 'Mate', serif;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px){
+    .timelineButton {
+        width: 44%;
+        font-size: 1rem;
+    }
+
+    .timelineDuration{
+        font-size: 1rem;
+    }
+    
+    .timelineCompany{
+        font-size: 1.4rem;
+    }
+    
+    .timelineDesignation{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    .timelineButton {
+        width: 25%;
+        font-size: 1rem;
+    }
+}

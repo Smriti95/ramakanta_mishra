@@ -1,0 +1,117 @@
+.introText{
+    padding: 9% 0 3% 0;
+    font-size: 1.5rem;
+    color: floralwhite;
+    font-family: 'Mate', serif;
+}
+
+.introDesignation{
+    padding-bottom: 5%;
+    font-size: 1.5rem;
+    color: floralwhite;
+    font-family: 'Mate', serif;
+}
+
+.nameText{
+    color: rgba(250, 163, 0, 100%);
+}
+
+.introButton {
+    background-color: #708270;
+    border-radius: 200px 200px 200px 0;
+    border: 1px solid rgba(250, 163, 0, 100%);
+    width: 34%;
+    padding: 2%;
+    margin-bottom: 5%;
+    font-size: 0.9rem;
+    color: rgba(250, 163, 0, 100%);
+    font-family: 'Mate', serif;
+}
+
+.profileImage{
+    width: 30%;
+}
+
+.introMainGridContainer {
+    padding-top: 3%;
+}
+
+.introTextContainer{
+    padding: 0 8px 0 8px;
+}
+
+.downloadButtonText{
+    text-decoration: none;
+    color: rgba(250, 163, 0, 100%);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 320px){
+    .introSection {
+        top: 3.9rem !important;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .introDesignation {
+        font-size: 1.7rem;
+    }
+
+    .introText {
+        font-size: 1.7rem;
+        padding: 2% 0 1% 0;
+    }
+
+    .introTextGrid {
+        width: 50% !important;
+        margin-left: 25% !important;
+        padding-bottom: 2%;
+    }
+
+    .introButton {
+        width: 85%;
+        padding: 5%;
+        font-size: 1rem;
+    }
+
+    .introImageContainer{
+        margin-left: -12% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1300px){
+    .introText {
+        font-size: 1.6rem;
+    }
+
+    .introDesignation {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .introMainGridContainer{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .introButton {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+    .introText {
+        font-size: 2.5rem;
+    }
+
+    .introDesignation {
+        padding-bottom: 3%;
+        font-size: 2.5rem;
+    }
+
+    .introButton {
+        width: 61%;
+        padding: 3%;
+    }
+}

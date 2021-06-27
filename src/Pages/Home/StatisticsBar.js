@@ -1,28 +1,74 @@
+// import React from 'react'
+// import Grid from '@material-ui/core/Grid';
+
+// import './StatisticsBar.css'
+// import { milestones } from '../../utils/constants'
+
+// const StatisticsBar = props => {
+//     return(
+//         <React.Fragment>
+//             <div className="statisticsMainContainer">
+//                 <Grid container className="statisticsContainer">
+//                     <Grid item xs={12} sm={3} className="statisticsCardHolder">
+//                         <div className="statisticsCard">
+//                             <div className="statisticsCardTextContainer">
+//                                 <div className="commaLeft">" </div>
+//                                 <div className="milestoneText">{milestones[0]}</div>
+//                                 <div className="commaRight"> ''</div>
+//                             </div>
+//                         </div>
+//                     </Grid>
+//                     <Grid item xs={12} sm={3} className="statisticsCardHolder">
+//                         <div className="statisticsCard">
+//                             <div className="statisticsCardTextContainer">
+//                                 <div className="commaLeft">" </div>
+//                                 <div className="milestoneText">{milestones[1]}</div>
+//                                 <div className="commaRight"> ''</div>
+//                             </div>
+//                         </div>
+//                     </Grid>
+//                     <Grid item xs={12} sm={3} className="statisticsCardHolder">
+//                         <div className="statisticsCard">
+//                             <div className="statisticsCardTextContainer">
+//                                 <div className="commaLeft">" </div>
+//                                 <div className="milestoneText">{milestones[2]}</div>
+//                                 <div className="commaRight"> ''</div>
+//                             </div>
+//                         </div>
+//                     </Grid>
+//                 </Grid>
+//             </div>
+//         </React.Fragment>
+//     )
+// }
+
+// export default StatisticsBar
+
 import React from 'react'
-import Divider from '@material-ui/core/Divider';
+import Grid from '@material-ui/core/Grid';
 
 import './StatisticsBar.css'
+import { milestones } from '../../utils/constants'
 
 const StatisticsBar = props => {
     return(
-        <div className="statisticsCardContainer">
-            <div className="statisticsCard">
-                <div className="cardContent">
-                    <div className="upperCardDetails"><span className="number">30 </span> years</div>
-                    <div>total experience</div>
-                </div>
-                <Divider orientation="vertical" />
-                <div className="cardContent">
-                    <div className="upperCardDetails"><span className="number">15 </span> years</div>
-                    <div>experience in Green Field Projects</div>
-                </div>
-                <Divider orientation="vertical" />
-                <div className="cardContent">
-                    <div className="upperCardDetails"><span className="number">7</span></div>
-                    <div>large new project setup</div>
-                </div>
+        <React.Fragment>
+            <div className="statisticsMainContainer">
+                <Grid container className="statisticsContainer">
+                    {milestones.map(milestone => (
+                        <Grid item xs={12} sm={3} className="statisticsCardHolder">
+                            <div className="statisticsCard">
+                                <div className="statisticsCardTextContainer">
+                                    <div className="commaLeft">" </div>
+                                    <div className="milestoneText">{milestone}</div>
+                                    <div className="commaRight"> ''</div>
+                                </div>
+                            </div>
+                        </Grid>
+                    ))}
+                </Grid>
             </div>
-        </div>
+        </React.Fragment>
     )
 }
 
