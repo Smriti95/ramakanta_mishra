@@ -4,63 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Mate&display=swap" rel="stylesheet">
     <title>Page Not Found</title>
     <style>
-        .errorPageContainer {
-            background-color: #dae9e4;
-            height: -webkit-fill-available;
-            position: absolute;
-            width: 100%;
-        }
-
         .errorCard {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             width: 40%;
-            background-color: white;
+            background-color: #dae9e4;
             z-index: 1;
-            box-shadow: 10px 10px 37px -11px #dae9e4;
             padding: 20px;
         }
 
         .errorBorder {
-            border: 1px dotted #dae9e4;
+            border: 1px dotted white;
         }
 
         .errorText {
             padding: 6%;
             font-size: 21px;
+            font-family: 'Mate', serif;
+            text-align: center;
         }
 
         .errorButton {
-            background-color: #faa300;
             outline: none;
             padding: 18px;
             border: none;
             font-size: 18px;
             width: 45%;
-            box-shadow: 10px 10px darkgrey;
-            color: white;
             font-weight: bold;
             margin-bottom: 6%;
+            border-radius: 200px 200px 200px 0;
+            border: 1px solid rgba(250, 163, 0, 50%);
+            background-color: rgba(250, 163, 0, 100%);
         }
 
         .buttonContainer{
             padding: 18px;
+            text-align: center;
+        }
+
+        .buttonText{
+            text-decoration: none;
+            color: white;
+            font-family: 'Mate', serif;
+            font-weight: bold;
         }
     </style>
 </head>
 
 <body>
     <main>
-        <div class="errorPageContainer">
+        <div>
             <div class="errorCard">
                 <div class="errorBorder">
                     <div class="errorText">Oops!! Seems like this page doesn't exist</div>
                     <div class="buttonContainer">
-                        <button class="errorButton"><a href="https://smriti95.github.io/ramakanta_mishra/">Go Back To Home</a></button>
+                        <button class="errorButton"><a href="https://smriti95.github.io/ramakanta_mishra/" class="buttonText">Go Back To Home</a></button>
                     </div>
                 </div>
             </div>
