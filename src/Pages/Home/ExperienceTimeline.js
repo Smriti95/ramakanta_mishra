@@ -32,7 +32,7 @@ const ExperienceTimeline = () => {
                 open={open}
                 onBackdropClick={() => openModal(false)}
             >
-                <div className="projectModal">
+                <div className="experienceTimelineModal">
                     <CloseRoundedIcon className="timelineCloseIcon" onClick={() => setOpen(false)} />
                     <CompanyExperience companyName={company}/>
                 </div>
