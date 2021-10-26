@@ -24,7 +24,6 @@ const Projects = props => {
         setProjId(id)
         let details = projects.filter(project => project.id === id)
         setCardDetail(details[0])
-        window.scrollTo(0,0)
     }
 
     const onOpenCarousel = value => {

@@ -5,7 +5,7 @@
 }
 
 .timelineMainContainer{
-    position: absolute;
+    position: relative;
     top: 4%;
     width: 100%;
 }
@@ -17,11 +17,13 @@
     justify-content: center;
     align-items: center;
     width: 96%;
-    margin-top: -240%;
+    /* margin-top: -240%; */
     font-size: 24px;
     color: rgba(250, 163, 0, 100%);
     font-family: 'Cinzel', serif;
     font-weight: bold;
+    position: relative;
+    margin-top: -3%;
 }
 
 .timelineCloseIcon{
@@ -29,6 +31,19 @@
     right: 3%;
     top: 1%;
     font-size: 27px !important;
+}
+
+.timelineCloseIcon:hover{
+    animation: timelinecloseIconAnimation 0.5s ease-in forwards;
+}
+
+@keyframes timelinecloseIconAnimation {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .experienceTimelineModal {
@@ -43,9 +58,9 @@
 }
 
 @media only screen and (min-width: 411px){
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -210%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 320px){
@@ -53,21 +68,21 @@
         height: 1000px;
     }
 
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -314%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 375px) and (max-width:410px){
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -231%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 768px){
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -123%;
-    }
+    } */
 
     .timelineImage {
         height: 91%;
@@ -88,9 +103,9 @@
         height: 127%;
     }
 
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -98%;
-    }
+    } */
 
     .timelineCloseIcon {
         position: absolute;
@@ -105,9 +120,9 @@
         height: 74%;
     }
 
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -101%;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1366px){
@@ -115,9 +130,9 @@
         height: 111%;
     }
 
-    .timelineHeading {
+    /* .timelineHeading {
         margin-top: -85%;
-    }
+    } */
 
     .timelineCloseIcon{
         position: absolute;
@@ -133,7 +148,7 @@
     }
 
     .timelineHeading {
-        margin-top: -82.5%;
+        /* margin-top: -82.5%; */
         font-size: 2rem;
     }
 }

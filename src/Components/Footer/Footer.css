@@ -1,8 +1,8 @@
 .footerHome{
-    position: absolute;
+    /* position: absolute; */
     background-color: #708270;
-    width: 100%;
-    top: 175rem;
+    /* width: 100%;
+    top: 175rem; */
 }
 
 .footerItem {
@@ -39,9 +39,9 @@
 }
 
 @media only screen and (min-width: 375px){
-    .footerHome {
+    /* .footerHome {
         top: 176rem;
-    }
+    } */
 
     .footerProject {
         top: 184rem;
@@ -63,9 +63,9 @@
 }
 
 @media only screen and (max-width: 320px){
-    .footerHome {
+    /* .footerHome {
         top: 186rem;
-    }
+    } */
 
     .footerProject {
         top: 177rem;
@@ -77,9 +77,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px){
-    .footerHome {
+    /* .footerHome {
         top: 119.5rem;
-    }
+    } */
 
     .footerProject {
         top: 80rem;
@@ -91,9 +91,9 @@
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1365px){
-    .footerHome {
+    /* .footerHome {
         top: 127rem;
-    }
+    } */
 
     .footerProject {
         top: 82rem;
@@ -101,9 +101,9 @@
 }
 
 @media only screen and (min-height: 1366px){
-    .footerHome {
+    /* .footerHome {
         top: 129rem;
-    }
+    } */
 
     .footerEquipment {
         top: 84rem;
@@ -115,9 +115,9 @@
         padding: 2% 0% 2% 8%;
     }
 
-    .footerHome {
+    /* .footerHome {
         top: 143rem;
-    }
+    } */
 
     .footerProject {
         top: 90rem;
@@ -129,9 +129,9 @@
 }
 
 @media only screen and (min-width: 1367px){
-    .footerHome {
+    /* .footerHome {
         top: 146rem;
-    }
+    } */
 
     .footerItem {
         padding: 1% 0% 1% 8%;

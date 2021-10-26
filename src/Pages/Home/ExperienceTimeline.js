@@ -23,7 +23,7 @@ const ExperienceTimeline = () => {
 
     return (
         <React.Fragment>
-            <img src={timelineImage} className="timelineImage"/>
+            {/* <img src={timelineImage} className="timelineImage"/> */}
             <div className="timelineHeading">EXPERIENCE</div>
             <div className="timelineMainContainer">
                 <Timeline openModal={openModal} selectCompany={selectCompanyHandler}/>

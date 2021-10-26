@@ -54,6 +54,19 @@
     font-size: 34px !important;
 }
 
+.closeIcon:hover{
+    animation: closeIconAnimation 0.5s ease-in forwards;
+}
+
+@keyframes closeIconAnimation {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .backArrow{
     float: left;
     position: absolute;
@@ -97,6 +110,38 @@
     .projectModal{
         width: 80%;
         height: 80%
+    }
+
+    .forwardArrow:hover{
+        animation: forwardArrowAnimation 1s ease-in forwards;
+    }
+    
+    @keyframes forwardArrowAnimation {
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(20px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+
+    .backArrow:hover{
+        animation: backArrowAnimation 1s ease-in forwards;
+    }
+    
+    @keyframes backArrowAnimation {
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(-20px);
+        }
+        100%{
+            transform: translateX(0);
+        }
     }
 }
 

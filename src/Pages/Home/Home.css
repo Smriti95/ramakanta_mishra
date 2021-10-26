@@ -1,11 +1,11 @@
 .introSection{
-    top: 4rem;
-    position: absolute;
+    /* top: 4rem;
+    position: absolute; */
     background-color: #708270;
-    width: 100%;
+    /* width: 100%; */
 }
 
-.aboutMe {
+/* .aboutMe {
     position: absolute;
     width: 100%;
     margin-top: 87%;
@@ -134,4 +134,14 @@
     .experienceTimeline {
         margin-top: 84%;
     }
+} */ 
+
+.homeGridContainer{
+    position: relative;
+    top: 2rem;
+}
+
+.gridItem{
+    position: relative;
+    margin-top: 3rem !important;
 }
