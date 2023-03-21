@@ -615,8 +615,8 @@ export const equipmentExposure = [
 ]
 
 export const AboutMeDetails = [
-    'A Mechanical Engineer with 30 years of experience in FMCG–Food, manufacturing, Production planning and control, Operations, Maintenance, Project Execution, Financial Management, Quality Assurance, and Cost Reduction. Handled  food processing plant manufacturing capacity  of  30000 tons per year  and 50000 tons capacity.',
-    'Exhibited excellence by directing & executing operations of 4 manufacturing facilities (Kolkota, Gujarat, Karnataka of turn over 1000 cr. Excellent understanding and practically handled the  ISO22000, BRC, HACCP, JIT-MRP ,TQM, system, GMP, GHP, TQM, KAIZEN as well as SOP preparations. FSSI Rules'
+    'A Mechanical Engineer with 30 years of experience in FMCG–Food sector in manufacturing and Green Field projects. Handled 50000 tons capacity plant with multiple plant operations across India. Executed 5 state of art Green Field projects of 300000 sq. ft.',
+    'Exhibited excellence by directing & executing operations of 4 manufacturing facilities (Kolkata, Gujarat, Karnataka) of turn over 1000 cr. Good practical knowledge and handled the  ISO22000, BRC, HACCP, JIT-MRP ,TQM system, GMP, GHP, TQM, KAIZEN, SOP preparations as well as FSSAI Rules'
 ]
 
 export const menuButtons = [
@@ -639,9 +639,9 @@ export const menuButtons = [
 ]
 
 export const milestones = [
-    'A Mechanical Engineer with 30 years of experience in FMCG–Food',
-    'A Mechanical Engineer with 30 years of experience in FMCG–Food',
-    'A Mechanical Engineer with 30 years of experience in FMCG–Food'
+    'Turned 2 loss making units into profitable units within a span of 2 years.',
+    'Led more than 1000 workforce for CITU and INTUC union.',
+    'Handled food processing plant of 20000 tons per year manufacturing capacity.'
 ]
 
 export const projectDesc = [

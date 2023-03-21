@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import {withRouter} from 'react-router-dom'
 
 import './IntroSection.css'
-import File from '../../assets/files/kunu.docx'
+import File from '../../assets/files/Ramakanta_Mishra_Resume.docx'
 
 const IntroSection = props => {
 

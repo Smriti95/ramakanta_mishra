@@ -15,7 +15,7 @@ const EquipmentExposure = () => {
             <div className="equipmentExposure">
                 <img className="backgroundImageEquipment" src={Tea} />
                 <div className="equipmentExposureHeading">Equipment exposure</div>
-                <div className="equipmentExposureDesc">{equipmentExposureDesc}</div>
+                {/* <div className="equipmentExposureDesc">{equipmentExposureDesc}</div> */}
                 <div className="equipmentMainContainer">
                     {equipmentExposure.map(equipment => (
                         <Equipment equipmentDetails={equipment} />

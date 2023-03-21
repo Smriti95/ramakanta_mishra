@@ -39,7 +39,7 @@ const Projects = props => {
             <Header />
             <div className="projects">
                 <div className="projectsHeading">Projects</div>
-                <div className="projectDesc">{projectDesc}</div>
+                {/* <div className="projectDesc">{projectDesc}</div> */}
                 <Grid container className="projectCardContainer">
                     {projects.map(project =>
                         (
