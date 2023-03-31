@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[11],{112:function(e,r,s){},148:function(e,r,s){"use strict";s.r(r);s(0);var t=s(1),i=(s(112),s(3));r.default=Object(t.f)((function(e){return Object(i.jsx)("div",{className:"errorPageContainer",children:Object(i.jsx)("div",{className:"errorCard",children:Object(i.jsx)("div",{className:"errorBorder",children:Object(i.jsx)("div",{className:"errorText",children:"Oops!! Seems like this page doesn't exist"})})})})}))}}]);
-//# sourceMappingURL=11.85575f21.chunk.js.map
