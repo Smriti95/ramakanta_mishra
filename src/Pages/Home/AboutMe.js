@@ -31,10 +31,10 @@ const AboutMe = props => {
                     </div>
                     <Grid container className="aboutMeButtonContainer">
                         <Grid item xs={12} sm={6}>
-                            <button className="aboutMeButton" onClick={() => onClickHandler('/ramakanta_mishra/projects')}>Projects</button>
+                            <button className="aboutMeButton" onClick={() => onClickHandler('/projects')}>Projects</button>
                         </Grid>
                         <Grid item xs={12} sm={6}>
-                            <button className="aboutMeButton" onClick={() => onClickHandler('/ramakanta_mishra/equipment')}>Equipment Exposure</button>
+                            <button className="aboutMeButton" onClick={() => onClickHandler('/equipment')}>Equipment Exposure</button>
                         </Grid>
                     </Grid>
                 </Grid>
