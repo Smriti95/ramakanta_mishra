@@ -393,7 +393,7 @@ export const contactDetails = {
     email: 'ramakanta.mishra500@gmail.com',
     linkedinText: 'Ramakanta Mishra',
     linkedinLink: 'https://www.linkedin.com/in/ramakanta-mishra-b24a08a4/',
-    phone: '9160108040',
+    phone: '9160108040, 6353274779',
     location: 'Hyderabad'
 }
 
