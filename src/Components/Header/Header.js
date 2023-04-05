@@ -28,7 +28,7 @@ const Header = () => {
                         {
                             menuButtons.map(ele => (
                                 <div className="menuLinkContainer">
-                                    <div><NavLink exact to={`/${ele.path}`} activeClassName="menuLinkSelected" className="mobileMenuLink">{ele.name}</NavLink></div>
+                                    <div><NavLink exact to={`${ele.path}`} activeClassName="menuLinkSelected" className="mobileMenuLink">{ele.name}</NavLink></div>
                                     <div><Divider className="divider" variant="middle"/></div>
                                 </div>
                             ))
