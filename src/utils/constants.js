@@ -616,7 +616,6 @@ export const equipmentExposure = [
 
 export const AboutMeDetails = [
     'A Mechanical Engineer with 30 years of experience in FMCG–Food sector in manufacturing and Green Field projects. Handled 50000 tons capacity plant with multiple plant operations across India. Executed 5 state of art Green Field projects of 300000 sq. ft.',
-    'Exhibited excellence by directing & executing operations of 4 manufacturing facilities (Kolkata, Gujarat, Karnataka) of turn over 1000 cr. Good practical knowledge and handled the  ISO22000, BRC, HACCP, JIT-MRP ,TQM system, GMP, GHP, TQM, KAIZEN, SOP preparations as well as FSSAI Rules'
 ]
 
 export const menuButtons = [
