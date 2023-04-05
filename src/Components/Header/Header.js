@@ -28,7 +28,7 @@ const Header = () => {
                         {
                             menuButtons.map(ele => (
                                 <div className="menuLinkContainer">
-                                    <div><NavLink exact to={`/ramakanta_mishra${ele.path}`} activeClassName="menuLinkSelected" className="mobileMenuLink">{ele.name}</NavLink></div>
+                                    <div><NavLink exact to={`/${ele.path}`} activeClassName="menuLinkSelected" className="mobileMenuLink">{ele.name}</NavLink></div>
                                     <div><Divider className="divider" variant="middle"/></div>
                                 </div>
                             ))
@@ -38,10 +38,10 @@ const Header = () => {
             </MediaQuery>
             <MediaQuery minWidth={768}>
                 <div className="menuContainer">
-                    <NavLink exact to="/ramakanta_mishra/" activeClassName="menuLinkSelected" className="menuLink">Home</NavLink>
-                    <NavLink to="/ramakanta_mishra/projects" activeClassName="menuLinkSelected" className="menuLink">Projects</NavLink>
-                    <NavLink to="/ramakanta_mishra/equipment" activeClassName="menuLinkSelected" className="menuLink">Equipment Exposure</NavLink>
-                    <NavLink to="/ramakanta_mishra/contact" activeClassName="menuLinkSelected" className="menuLink">Contact</NavLink>
+                    <NavLink exact to="/" activeClassName="menuLinkSelected" className="menuLink">Home</NavLink>
+                    <NavLink to="/projects" activeClassName="menuLinkSelected" className="menuLink">Projects</NavLink>
+                    <NavLink to="/equipment" activeClassName="menuLinkSelected" className="menuLink">Equipment Exposure</NavLink>
+                    <NavLink to="/contact" activeClassName="menuLinkSelected" className="menuLink">Contact</NavLink>
                 </div>
             </MediaQuery>
         </div>

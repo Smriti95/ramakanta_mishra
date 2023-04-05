@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Suspense fallback={<div><Loader /></div>}>
         <Switch>
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/projects" component={ProjectLanding} />
           <Route exact path="/equipment" component={EquipmentExposure} />
           <Route exact path="/contact" component={Contact} />

@@ -8,7 +8,7 @@ import File from '../../assets/files/Ramakanta_Mishra_Resume.docx'
 const IntroSection = props => {
 
     const onClickHandler = () => {
-        props.history.push('/ramakanta_mishra/contact')
+        props.history.push('/contact')
     }
 
     return(
@@ -19,7 +19,7 @@ const IntroSection = props => {
                     <div className="introDesignation">Project Manager</div>
                     <Grid container alignContent="center" className="introTextGrid">
                         <Grid item xs={12} sm={6}>
-                            <button className="introButton"><a href="/contact">Contact Me</a></button>
+                            <button className="introButton" onClick={onClickHandler}>Contact Me</button>
                         </Grid>
                         <Grid item xs={12} sm={6}>
                             <button className="introButton">
